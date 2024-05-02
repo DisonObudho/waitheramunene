@@ -1,0 +1,101 @@
+baseURL: https://aafu.pages.dev/
+languageCode: en-us
+build:
+  writeStats: true
+params:
+  title: Waithera Munene
+  author: Waithira Munene
+  description: Website title
+  copyright: >-
+    powered by [hugo](https://gohugo.io/) & deployed on
+    netlify
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false
+  favicons:
+    use: true
+    metas: |2-
+              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+              <link rel="manifest" href="site.webmanifest">
+              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+              <link rel="shortcut icon" href="favicon.ico">
+
+  profile:
+    name: "Waihira Munene."
+    tagline: Biology/Chemistry Tutor
+    location: "Donholm, Nairobi"
+    photo: profile.jpg
+  social:
+    title: Links
+    list:
+      - icon: fab fa-instagram
+        url: "https://www.instagram.com/munenewaithera233/?igsh=YzljYTk1ODg3Zg%3D%3D"
+        title: Twitter
+      - icon: fab fa-whatsapp
+        url: "https://wa.me/+254798057948"
+        title: Orcid
+      - icon: fab fa-facebook
+        url: "https://www.facebook.com/profile.php?id=100075508926263"
+        title: ResearchGate
+  showInAccordion:
+    - item: aboutme
+      expand: true
+    - item: experience
+    - item: education
+    - item: publication
+    - item: project
+    - item: skill
+    - item: hobby
+  aboutme:
+    title: About Me
+    icon: fas fa-user
+    description: Am a passionate biology/chemistry teacher currently teaching at Buruburu girls. I offer both online and in-house tutoring services. My rate is Ksh. 1000/h.
+  experience:
+    title: Experiences
+    icon: fas fa-briefcase
+    list:
+      - position: Biology/Chemistry
+        dates: 2020 - 2023
+        company: Nyahururu Boys
+
+      - position: Biology/Chemistry
+        dates: 2024 - **present**
+        url: "#"
+        company: Buruburu Girls
+  education:
+    title: Education
+    icon: fas fa-graduation-cap
+    list:
+      - degree: Bed. Science
+        college: Chuka University
+        dates: 2015 - 2019
+        thesis_title: "Aloe species."
+        thesis_url: "#"
+      - degree: High School Level
+        college: Mutira High School
+        dates: 2011 - 2014
+        thesis_title: ""
+        thesis_url: "#"
+      - degree: Basic Computer Studies
+        college: BRIMA Computers
+        dates: 2014 - 2015
+
+  skill:
+    title: Skills
+    panelId: skill-panel
+    icon: fas fa-cogs
+    list:
+      - skill: "HandBall Trainer"
+        skillrating: 90
+
+  hobby:
+    title: Hobbies
+    icon: fas fa-gamepad
+    list:
+      - hobby: Cooking
+      - hobby: Playing Handball
+      - hobby: Swimming
+      - hobby: Reading Novels
